@@ -189,11 +189,7 @@ const DetailsDrawer: FC<DetailsDrawerProps> = ({
                 Summary:
               </Typography>
               <Typography variant="subtitle1">
-                Es un árbol monoico, caducifolio de ramas abiertas y amplia
-                copa. Su corteza, de color ceniciento o verdoso, castaño en los
-                troncos viejos, se desprende en placas escamosas que dejan al
-                descubierto manchas irregulares amarillentas o blanquecinas de
-                la corteza interna.
+              The Adventures of Roderick Random, Scottish author and poet Tobias Smollett’s debut picaresque novel, was published in 1748 and is loosely based on Smollett’s experiences in the British Navy. Set in the 1730s and 1740s, the narrative follows the life of the main protagonist and narrator, Roderick “Rory” Random, from childhood to adulthood as Roderick journeys through England, France, the Caribbean, Africa, and Latin America.
               </Typography>
             </Box>
             <Box

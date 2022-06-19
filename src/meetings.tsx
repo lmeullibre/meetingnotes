@@ -38,6 +38,7 @@ import DetailsDrawer from "./DetailsDrawer";
 import { Meeting } from "./types/meeting";
 import axios from "axios";
 import MeetingRow from "./meetingRow";
+import CustomSeparator from "./bread";
 
 interface MeetingsProps {}
 
@@ -78,6 +79,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#5048E5",
   },
   searchCard: {
+    marginTop: "1rem",
     marginBottom: "1rem",
   },
   queryField: {
@@ -181,11 +183,9 @@ const Meetings: FC<MeetingsProps> = ({}) => {
 
   if (meetings) {
     return (
-      <Box>
+      <Box mt={"5rem"}>
+        <CustomSeparator></CustomSeparator>
         <Box textAlign={"center"}>
-          <Typography color="primary" variant="h1">
-            Meeting List
-          </Typography>
         </Box>
         <Card className={classes.searchCard}>
           <Box p={1} display="flex" alignItems="center">
@@ -209,7 +209,6 @@ const Meetings: FC<MeetingsProps> = ({}) => {
                     <TableCell>Name</TableCell>
                     <TableCell align="right">Topics</TableCell>
                     <TableCell align="right">Duration</TableCell>
-                    <TableCell align="right">Project</TableCell>
                     <TableCell align="right">Options</TableCell>
                   </TableRow>
                 </TableHead>

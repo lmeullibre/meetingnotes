@@ -151,7 +151,6 @@ const handleCloseMenu = () => {
         </Box>
       </TableCell>
       <TableCell align="right">{msToTime(meeting.durationInMs)}</TableCell>
-      <TableCell align="right">{meeting.projectName}</TableCell>
       <TableCell align="right">
         <IconButton
           aria-label="delete"

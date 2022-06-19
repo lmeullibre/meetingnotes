@@ -142,14 +142,6 @@ const NewMeetingDrawer: FC<NewMeetingDrawerProps> = ({ isOpen, onClose }) => {
               label="Meeting name"
               onChange={(event) => setMeetingName(event.target.value)}
             />
-            <Box marginLeft="auto">
-              <TextField
-                required
-                onChange={(event) => setProjectName(event.target.value)}
-                id="outlined-required"
-                label="Project name"
-              />
-            </Box>
           </Box>
           <Box mt={2}>
             <TextField
